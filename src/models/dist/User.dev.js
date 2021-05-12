@@ -81,6 +81,6 @@ userSchema.statics.comparePassword = function _callee2(pass, receivedPassword) {
   });
 };
 
-var _default = (0, _mongoose.model)('User', userSchema);
+var _default = (0, _mongoose.model)("User", userSchema);
 
 exports["default"] = _default;

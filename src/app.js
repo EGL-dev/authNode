@@ -12,11 +12,6 @@ const app = express();
 
 createRoles();
 
-
-
-
-
-
 app.set('pkg', pkg);
 
 app.use(express.json());
